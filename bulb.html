@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+ 
+    <img  id="sk" src="light-bulb off.png" alt="">
+    <p>
+        <button type="button" onclick="light(1)">light-on</button>
+        <button type="button" onclick="light(0)">light-off</button>
+    </p>
+
+    <script>
+     function light(sw){
+        var b;
+        if(sw==0){
+            b="light-bulb off.png"
+        }
+        else{
+            b="light-bulb on.png"
+        }
+        document.getElementById("sk").src=b;
+     }
+  
+  
+  </script> 
+
+
+<!-- 
+    
+<img  id="sk" src="light-bulb off.png" alt="">
+<p>
+    <button type="button" onclick="bon()">light-on</button>
+    <button type="button" onclick="boff()">light-off</button>
+</p>
+
+<script>
+ function bon()
+ {
+    document.getElementById("sk").src="light-bulb on.png";
+ }
+
+ function boff()
+ {
+    document.getElementById("sk").src="light-bulb off.png";
+ }
+ </script> -->
+</body>
+</html>

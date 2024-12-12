@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        div{
+            background-color: green;
+            text-align: center;
+        }
+
+        .left{
+            float: left;
+            width: 20%;
+        }
+
+       .left a{
+        background-color: blue;
+        padding: 5px;
+        color: wheat;
+        display: block;
+        margin-top: 20px;
+
+
+
+       }
+
+       .mid{
+
+        float: left;
+        width: 60%;
+        padding: 80px;
+        background-color: red;
+       margin:  top 2px;
+       }
+
+       .right{
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        background-color: blueviolet;
+         margin-top: 2px;
+       }
+
+      
+       
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .left, .mid, .right {
+    width: 100%;
+
+  }
+}
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Hello World</h1>
+    </div>
+
+    <div style="overflow: auto;">
+        <div class="left">
+            <a href="link1">link1</a>
+            <a href="link1">link1</a>
+            <a href="link1">link1</a>
+            <a href="link1">link1</a>
+        </div>
+
+        <div class="mid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla autem alias excepturi nesciunt consequatur ipsum similique beatae pariatur blanditiis reprehenderit, dolor odio asperiores quis quasi fugiat delectus nemo totam? Delectus!</p>
+
+        </div>
+
+        <div class="right">
+            <h3>About</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque, inventore impedit delectus quod ullam esse dolor cupiditate veritatis iure eaque asperiores cum voluptatibus, voluptatum quaerat, repudiandae illum mollitia? Quidem.
+        </div>
+    </div>
+
+
+    <div style="background-color:#e5e5e5;text-align:center;padding:20px;margin-top:7px;">
+        <h4>@Copy right w3schools</h4>
+    </div>
+</body>
+</html>

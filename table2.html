@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            /* background-color: blue; */
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 55px;
+            text-align: center;
+        }
+        th,td{
+            border: solid 2px yellowgreen;
+            padding: 6px;
+            border-color: blueviolet;
+        }
+
+        caption{
+            caption-side:bottom;
+        }
+        colgroup {
+        display: table-column-group;
+} 
+       caption{
+        display: table-caption;
+       }
+
+       col{
+        display: table-column;
+       }
+      th{
+        text-align: right;
+      }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>table</caption>
+        <colgroup>
+            <col span="2"   style="background-color: green;">
+            <col  style="background-color: #ff5621;">
+        </colgroup>
+        <thead style="vertical-align: bottom;">
+        <tr style="height: 200px;">
+            <th>wel</th>
+            <th>wel</th>
+            <th>wel</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td >hello</td>                                
+            <td>hello</td>
+            <td>hello</td>
+        </tr>  
+        <tr>
+            <td>prog1</td>
+            <td>prog2</td>
+            <td>prog3</td>
+        </tr>
+        <tr style="height:200px">
+            <td>prog1</td>
+            <td>prog2</td>
+            <td>prog3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>prog1</td>
+            <td>prog2</td>
+            <td>prog3</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
